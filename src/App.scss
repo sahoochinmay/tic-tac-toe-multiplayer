@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+// Global variables
+$primary :  rgb(255, 196, 0);
+$secondary: gray;
+$text: white;
+body {
+  background-color: #000000;
+  color: $text;
+  font-family: "Righteous", cursive;
+}
+.main {
+  max-width: 400px !important;
+  h1{
+    text-align: center;
+    color: $primary;
+    border-bottom: 2px solid white;
+  }
+  h4 {
+    text-align: center;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+    .box {
+      background-color: $primary;
+      width: auto;
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .icons {
+        font-size: 35px;
+        font-weight: bold;
+      }
+    }
+  }
+  .bottom_div {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    .reaload_button{
+      background-color: $secondary;
+      color: $text;
+      font-weight: bold;
+    }
+  }
+}

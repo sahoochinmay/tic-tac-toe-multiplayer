@@ -1,14 +1,14 @@
 import React from "react";
-import { FaTimes, FaPen, FaRegCircle } from "react-icons/fa";
+import { FiberManualRecordOutlined,Close,Create} from '@material-ui/icons'
 
 const Icon = ({ name }) => {
   switch (name) {
     case "circle":
-      return <FaRegCircle className="icons" />;
+      return <FiberManualRecordOutlined className="icons" />;
     case "cross":
-      return <FaTimes className="icons" />;
+      return <Close className="icons" />;
     default:
-      return <FaPen className="icons" />;
+      return <Create className="icons" />;
   }
 };
 
