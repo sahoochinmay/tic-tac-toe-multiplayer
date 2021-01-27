@@ -52,7 +52,7 @@ const App = () => {
     volume: 1,
   });
   useEffect(() => {
-    // bgPlay();
+    bgPlay();
   }, []);
 
   useEffect(()=>{
@@ -215,6 +215,15 @@ const App = () => {
               className="input_box"
               value={player1}
               onChange={(e) => set_player1(e.target.value)}
+              type="text"
+            />
+            <br />
+            <br />
+            <lable>Player 1&nbsp;&nbsp;</lable>
+            <input
+              className="input_box"
+              value={player2}
+              onChange={(e) => set_player2(e.target.value)}
               type="text"
             />
             <Button
