@@ -50,7 +50,7 @@ const App = () => {
   });
   useEffect(() => {
     bgPlay();
-  }, []);
+  },[bgPlay]);
   
   const handleStart = () => {
     if (player1 !== "" && player2 !== "") {
@@ -185,6 +185,8 @@ const App = () => {
         break;
       case 4:
         set_crossAngle("down_right");
+        break;
+      default:
         break;
     }
   }, [crossIndexes]);
