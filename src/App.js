@@ -18,7 +18,6 @@ import click from "./audios/click.mp3";
 import winner from "./audios/winner.mp3";
 import draw from "./audios/draw.mp3";
 
-
 const itemArray = new Array(9).fill("empty");
 
 const App = () => {
