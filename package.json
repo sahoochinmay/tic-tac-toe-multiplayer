@@ -1,5 +1,6 @@
 {
   "name": "games",
+  "homepage": "https://sahoochinmay.github.io/tic-tac-toe-multiplayer",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
