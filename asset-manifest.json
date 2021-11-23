@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.da508e0b.chunk.css",
+    "main.js": "/static/js/main.1dedf845.chunk.js",
+    "main.js.map": "/static/js/main.1dedf845.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.721694d0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.721694d0.js.map",
+    "static/js/2.79b1f5bb.chunk.js": "/static/js/2.79b1f5bb.chunk.js",
+    "static/js/2.79b1f5bb.chunk.js.map": "/static/js/2.79b1f5bb.chunk.js.map",
+    "static/js/3.e2e7056b.chunk.js": "/static/js/3.e2e7056b.chunk.js",
+    "static/js/3.e2e7056b.chunk.js.map": "/static/js/3.e2e7056b.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.da508e0b.chunk.css.map": "/static/css/main.da508e0b.chunk.css.map",
+    "static/js/2.79b1f5bb.chunk.js.LICENSE.txt": "/static/js/2.79b1f5bb.chunk.js.LICENSE.txt",
+    "static/js/3.e2e7056b.chunk.js.LICENSE.txt": "/static/js/3.e2e7056b.chunk.js.LICENSE.txt",
+    "static/media/bgSong.57be5542.mp3": "/static/media/bgSong.57be5542.mp3",
+    "static/media/click.8515d2a4.mp3": "/static/media/click.8515d2a4.mp3",
+    "static/media/draw.7a117c09.mp3": "/static/media/draw.7a117c09.mp3",
+    "static/media/winner.9cfbe32b.mp3": "/static/media/winner.9cfbe32b.mp3"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.721694d0.js",
+    "static/js/2.79b1f5bb.chunk.js",
+    "static/css/main.da508e0b.chunk.css",
+    "static/js/main.1dedf845.chunk.js"
+  ]
+}
