@@ -21,5 +21,5 @@ jobs:
       run: |
         git config --global user.email ${{ secrets.PERSONAL_EMAIL }}
         git config --global user.name ${{ secrets.PERSONAL_USERNAME }}
-        git remote set-url origin https://${{ secrets.PERSONAL_ACCESS_TOKEN_GITHUB }}@github.com/sahoochinmay/react-githubpage-ci-cd.git
+        git remote set-url origin https://${{ secrets.PERSONAL_ACCESS_TOKEN_GITHUB }}@github.com/sahoochinmay/tic-tac-toe-multiplayer.git
         npm run deploy
