@@ -190,6 +190,7 @@ const App = () => {
         break;
     }
   }, [crossIndexes]);
+  
   return (
     <Container className="main">
       <h1>Tic-Tac-Toe</h1>
