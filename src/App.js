@@ -58,7 +58,7 @@ const App = () => {
     } else {
       console.log("start");
       set_snackData({
-        messsage: "Please fill all the fields.",
+        messsage: "Please fill all the fields. ",
         severity: "info",
       });
       return set_snackbar(true);
