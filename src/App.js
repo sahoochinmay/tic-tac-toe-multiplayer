@@ -18,8 +18,6 @@ import click from "./audios/click.mp3";
 import winner from "./audios/winner.mp3";
 import draw from "./audios/draw.mp3";
 
-import socketIOClient from "socket.io-client";
-
 
 const itemArray = new Array(9).fill("empty");
 
@@ -54,13 +52,7 @@ const App = () => {
   useEffect(() => {
     bgPlay();
   }, []);
-
-  useEffect(()=>{
-    const socket = socketIOClient('http://127.0.0.1:3001')
-    socket.on('game',data=>{
-      console.log(data)
-    })
-  },[])
+  
   const handleStart = () => {
     if (player1 !== "" && player2 !== "") {
       return setPlayerModal(false);
