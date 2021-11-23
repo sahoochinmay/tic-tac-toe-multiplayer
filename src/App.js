@@ -50,8 +50,8 @@ const App = () => {
   });
   useEffect(() => {
     bgPlay();
-  },[bgPlay]);
-  
+  }, [bgPlay]);
+
   const handleStart = () => {
     if (player1 !== "" && player2 !== "") {
       return setPlayerModal(false);
