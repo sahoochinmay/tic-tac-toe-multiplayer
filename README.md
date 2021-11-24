@@ -6,7 +6,7 @@ For sound effect i use 'use-sound' package.
 
 ## [Live Demo](https://sahoochinmay.github.io/tic-tac-toe-multiplayer/)
 
-## [Checkout Video](https://youtu.be/Q0ijL-sx_5U)
+## [Checkout Video](https://youtu.be/mDaGVcrSh0Y)
 
   
 ### Connect with me:
